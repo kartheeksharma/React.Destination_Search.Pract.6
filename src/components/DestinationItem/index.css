@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.dest-item {
+  list-style-type: none;
+  width: 220px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.dest-image {
+  width: 220px;
+  height: 180px;
+}
+
+.name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 20px;
+  }
+}
